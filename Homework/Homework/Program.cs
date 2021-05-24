@@ -1,4 +1,5 @@
 ﻿using Homework.Day1;
+using Homework.Stepik;
 
 namespace Homework
 {
@@ -6,12 +7,18 @@ namespace Homework
     {
         static void Main(string[] args)
         {
-            //Task1.Execute(3, 1000000);
-            //Task2.Execute();
-            //Task3.Execute("университет", "уникс");
-            Task4.Execute();
-            //var floorAndBallTorture = new Task5();
-            //floorAndBallTorture.Execute(100, 2);
+            //Commisvoyageur.Execute();
+            //ContinuousBackpack.Execute();
+            //Request.Execute();
+            //Olymiad.Execute();
+            //Icecream.Execute();
+            //Backpack.Execute();
+            //Friends.Execute();
+            //News.Execute();
+            //Shops.Execute();
+            //GoldGreed.Execute();
+            //Time.Execute();
+            Arithmetics.Execute();
         }
     }
 }
