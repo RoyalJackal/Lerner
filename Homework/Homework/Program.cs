@@ -7,18 +7,9 @@ namespace Homework
     {
         static void Main(string[] args)
         {
-            //Commisvoyageur.Execute();
-            //ContinuousBackpack.Execute();
-            //Request.Execute();
-            //Olymiad.Execute();
-            //Icecream.Execute();
-            //Backpack.Execute();
-            //Friends.Execute();
-            //News.Execute();
-            //Shops.Execute();
-            //GoldGreed.Execute();
-            //Time.Execute();
-            Arithmetics.Execute();
+            //ChinesePostman.Execute();
+            //GaussArea.Execute();
+            Cities.Execute();
         }
     }
 }
