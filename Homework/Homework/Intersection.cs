@@ -9,7 +9,14 @@ namespace Homework
     {
         public static void Execute()
         {
-            var input = new List<(Point, Point)>();
+            var input = new List<(Point, Point)>
+            {
+                (new Point(-4, 8), new Point(-1, 4)),
+                //(new Point(2, 5), new Point(5, 2)),
+                //(new Point(2, 1), new Point(5, 4)),
+                (new Point(3, 5), new Point(3, 2)),
+                (new Point(3, 7), new Point(3, 4)),
+            };
             var lines = input
                 .Select(points => points.Item1.X > points.Item2.X ? (points.Item2, points.Item1) : (points.Item1, points.Item2))
                 .OrderBy(points => points.Item1.X)
